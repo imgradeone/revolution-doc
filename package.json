@@ -1,0 +1,14 @@
+{
+  "name": "dokimod-revolution",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^1.5.0",
+    "vuepress-theme-vdoing": "^1.8.1"
+  }
+}
