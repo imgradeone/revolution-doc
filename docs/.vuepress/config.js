@@ -1,21 +1,6 @@
 module.exports = {
-    title: 'DokiMod',
+    title: 'DokiMod 开发文档',
     description: '为 Mod 创作赋能。',
-    plugins: {
-      "vuepress-plugin-auto-sidebar": {
-        titleMap: {
-          "modtemplate": "DDLC 中文 Mod 模板",
-          "moddev": "Mod 开发",
-          "player": "玩家指引",
-          "mods": "精选 Mod",
-          "releases": "版本更新历史",
-          "downloads": "下载",
-          "extensions": "素材 / 补丁插件",
-          "modlib": "Mod 仓库",
-          "excel2mod": "Excel2DDLCMod"
-        }
-      },
-    },
     theme: "vdoing",
     head: [
       ['meta', { name: 'theme-color', content: '#fa4694' }],
@@ -31,6 +16,7 @@ module.exports = {
       tag: false,
       archive: false,
       titleBadge: false,
+      sidebar: 'structuring',
       updateBar: { // 最近更新栏
         showToArticle: false
       },
@@ -54,13 +40,13 @@ module.exports = {
       nav: [
         { text: '主页', link: '/' },
         { text: 'DDLC 中文 Mod 模板', link: '/modtemplate/'},
-        { text: 'Mod 仓库', link: '/modlib/' },
-        { text: '返回原版文档', link: 'https://dokimod.cn' },
+        { text: '返回主站', link: 'https://revolution.dokimod.cn' },
         {
           text: 'GitHub',
           items: [
             { text: 'Mod 模板', link: 'https://github.com/imgradeone/DDLCModTemplate-Chinese' },
-            { text: '新版文档', link: 'https://github.com/imgradeone/revolution' }
+            { text: '新版文档', link: 'https://github.com/imgradeone/revolution' },
+            { text: '新版开发文档', link: 'https://github.com/imgradeone/revolution-doc' }
           ]
         },
       ],
