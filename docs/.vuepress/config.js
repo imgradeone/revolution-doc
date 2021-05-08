@@ -39,7 +39,7 @@ module.exports = {
       },
       nav: [
         { text: '主页', link: '/' },
-        { text: 'DDLC 中文 Mod 模板', link: '/pages/19e969/'},
+        { text: 'DDLC 中文 Mod 模板', link: '/modtemplate'},
         { text: '返回主站', link: 'https://revolution.dokimod.cn' },
         {
           text: 'GitHub',
