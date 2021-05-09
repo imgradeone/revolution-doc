@@ -45,6 +45,7 @@ module.exports = {
           text: 'GitHub',
           items: [
             { text: 'Mod 模板', link: 'https://github.com/imgradeone/DDLCModTemplate-Chinese' },
+            { text: 'Mod 模板 2.0', link: 'https://github.com/imgradeone/DDLCModTemplate-Chinese-next' },
             { text: '新版文档', link: 'https://github.com/imgradeone/revolution' },
             { text: '新版开发文档', link: 'https://github.com/imgradeone/revolution-doc' }
           ]
