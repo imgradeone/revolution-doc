@@ -30,8 +30,8 @@ module.exports = {
         ]
       },
       author: {
-        name: 'imgradeone', // 必需
-        link: 'https://imgradeone.com/', // 可选的
+        name: 'imgradeone',
+        link: 'https://imgradeone.com/',
       },
       footer:{
         createYear: 2021,
