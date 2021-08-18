@@ -10,4 +10,7 @@ features:
   - title: DDLC 中文 Mod 模板 开发文档
     details: 简单的中文 DDLC Mod 模板，帮助您快速制作 DDLC Mod
     link: /modtemplate
+  - title: Android Mod 移植
+    details: 将您的 DDLC Mod 带给更多手机玩家
+    link: /android
 ---
