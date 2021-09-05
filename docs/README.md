@@ -14,3 +14,7 @@ features:
     details: 将您的 DDLC Mod 带给更多手机玩家
     link: /android
 ---
+
+::: warning 注意
+本站文档仍处于编写阶段。
+:::
