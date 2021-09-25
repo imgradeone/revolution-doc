@@ -8,6 +8,9 @@ module.exports = {
       ['meta', { name: 'keywords', content: 'ddlc,ddlc mod,ddlcmod,doki doki literature club,doki doki literature club mods,dokimod,文学部,文学部mod,游戏mod开发,心跳文学部,心跳文学部mod,mod开发,心跳文学部mod开发' }]
     ],
     base: "/",
+    plugins: {
+      'plausible': { domain: 'dokimod.cn' },
+    },
     themeConfig: {
       smoothScroll: true,
       lastUpdated: '上次更新于',
