@@ -9,7 +9,7 @@ module.exports = {
     ],
     base: "/",
     plugins: {
-      'plausible-imgradeone': { domain: 'dokimod.cn' },
+      'plausible-imgradeone': { domain: 'docs.dokimod.cn' },
     },
     themeConfig: {
       smoothScroll: true,
