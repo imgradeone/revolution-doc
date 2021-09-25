@@ -31,6 +31,11 @@ module.exports = {
             link: 'https://github.com/DokiMod'
           },
           {
+            iconClass: 'icon-telegram',
+            title: 'Telegram',
+            link: 'https://t.me/DDLCModCN'
+          },
+          {
             iconClass: 'icon-twitter',
             title: 'Twitter',
             link: 'https://twitter.com/DokiMod'
